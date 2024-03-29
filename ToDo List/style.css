@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #241e2b;
+}
+
+.header {
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+.img-head {
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+.img-head img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(62deg) brightness(102%) contrast(106%);
+    width: 200%;
+}
+
+.title-head h1 {
+    color: #fff;
+    font-size: 3em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title-head span {
+    color: #00c9aa;
+}
+
+.divider {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.first-info {
+    color: #fff;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px auto;
+}
+
+.first-info h1 {
+    font-size: 1.5em;
+    color: #00c2a8;
+    padding-bottom: 10px;
+}
+
+.formTask {
+    background-color: #56416e;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+}
+
+.formTask h3 {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px 0px;
+    margin-bottom: 8px;
+}
+
+.task-form {
+    display: flex;
+}
+
+.task-form input {
+    border-radius: 6px;
+    padding: 5px 5px;
+    margin: 5px 0px;
+}
+
+.inputBtn button {
+    padding: 5px 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #00c2a8;
+    font-size: 0.9em;
+    transition: all 0.3s;
+    margin: 5px 5px;
+}
+
+.inputBtn button:hover {
+    background-color: #00c2a883;
+}
+
+#boxCards {
+    background-color: #ffffff07;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.boxTitle h3 {
+    color: #00c2a8;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.taskAction {
+    color: #fff;
+    display: flex;
+    margin: 10px 10px;
+    background-color: #56416e;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.taskAction span {
+    padding: 0px 10px;
+}
+
+.taskAction img {
+    filter: invert(100%) sepia(0%) saturate(5533%) hue-rotate(84deg) brightness(90%) contrast(107%);
+    width: 5%;
+}
+
+.completed {
+    display: flex;
+    margin-left: auto;
+}
+
+.deleted {
+    margin-left: 5px;
+}
+
+.completed:hover {
+    filter: invert(73%) sepia(55%) saturate(7417%) hue-rotate(88deg) brightness(124%) contrast(95%);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.deleted:hover {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+/* Text Decoration */
+
+.taskCompleted {
+    text-decoration: line-through 2px;
+}
+
+.teste {
+    background-color: #ffffff07;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.tarefa {
+    display: flex;
+}
+
+.tarefa h3 {
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.tarefa img {
+    filter: invert(100%) sepia(0%) saturate(5533%) hue-rotate(84deg) brightness(90%) contrast(107%);
+    width: 10%;
+    margin-left: 5px; 
+}
